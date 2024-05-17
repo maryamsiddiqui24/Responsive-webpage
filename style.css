@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, rgb(250, 248, 250), rgb(208, 154, 212));
+
+}
+
+header {
+    height: 50px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+header img {
+    margin-left: 15%;
+    margin-top: 6px;
+    margin-right: 25%;
+    width: 10%;
+}
+
+header a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000;
+}
+
+header button {
+    margin-left: 30px;
+    padding: 9px;
+    width: 9%;
+    border-radius: 4px;
+    border-color: rgb(18, 1, 48)
+}
+
+header i {
+    margin-left: 20px;
+
+}
+
+.contant {
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    height: 100%;
+
+}
+
+.left h1 {
+    margin-left: 30%;
+    margin-top: 100px;
+    color: navy;
+    font-size: 50px;
+
+}
+
+.left span {
+    color: purple;
+}
+
+.left h5 {
+    margin-left: 30%;
+    color: rgb(56, 54, 54);
+    margin-top: 30px;
+}
+
+
+.right {
+    width: 50vw;
+}
+
+.right img {
+    margin-top: 80px;
+    width: 50vw;
+}
+
+button {
+    margin-left: 15%;
+    padding: 10px;
+    width: 15%;
+    border-radius: 4px;
+    background: linear-gradient(to right, rgb(141, 102, 224), rgb(181, 74, 196));
+    border-color: rgb(18, 1, 48)
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        height: 40px;
+    }
+
+    header img {
+        width: 25%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    header a {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header i {
+        font-weight: 300px;
+    }
+
+    .contant {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .left h1 {
+        font-size: 40px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .left h5 {
+        margin-left: 50px;
+    }
+
+    .right {
+        width: 90%;
+    }
+
+    .right img {
+        width: 100%;
+        height: 100%;
+        /* margin-left: 100px; */
+        margin-top: 20px;
+
+    }
+
+    button {
+        margin-left: 35%;
+        width: 30%;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .left h1 {
+        margin-top: 20px;
+    }
+
+    .right img {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .left h1 {
+        margin-left: 20px;
+    }
+
+    .left h5 {
+        margin-left: 20px;
+    }
+
+
+
+}
